@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./jquery-3.5.1.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/peakpx.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 94.9vh;
+        }
+
+        .left {
+            padding: 0;
+            border: white 2px solid;
+            border-top-left-radius: 40px;
+
+            border-bottom-left-radius: 40px;
+        }
+
+        .right {
+            border-top-right-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        .img {
+            border-top-left-radius: 40px;
+            float: left;
+            margin-right: 10vh;
+            border-bottom-left-radius: 40px;
+        }
+
+        .form-control {
+            width: 50vh;
+        }
+
+        @media (max-width: 576px) {
+            .form-control {
+                width: 40vh;
+            }
+
+            .right {
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+
+            body {
+                background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255)), url(img/peakpx.jpg);
+            }
+
+
+        }
+
+        .form {
+            align-items: center;
+            margin-left: 5vh;
+        }
+
+        .tittle  {
+            margin-left: 15vh;
+        }
+        .sub-btn{
+            margin-left: 20vh;
+        }
+        .swi-btn{
+            margin-left: 15vh;
+        }
+        .signin-Btn{
+            background-color: black;
+            color: white;
+            border: 1px black solid ;
+
+        }
+        .signup-Btn{
+            border: 1px black solid;
+            background-color: white;
+            color: black;    
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div style="border-radius: 40px;" class="row mt-5">
+            <div class="col-lg-5 left d-none d-lg-block mt-5">
+                <img src="img/login/salman-sidheek-HVU2JqiDcEc-unsplash.jpg" alt="" class="img" height="770vh">
+            </div>
+            <div class="bg-white col-lg-1 mt-5"></div>
+            <div class="bg-white right col-lg-6 mt-5">
+                <div class="main">
+                    <div class="heading m-5">
+                        <h1 class="tittle" id="title">Sign Up</h1>
+                    </div>
+                    <div class="form pt-5">
+                        <!-- Name -->
+                        <div class="form-floating mb-3" id="nameField">
+                            <input type="text" class="form-control" id="name" placeholder="name@example.com">
+                            <label for="floatingInput">Name</label>
+                            <span style="color: red;" id="sn"></span>
+                        </div>
+                        <!-- email -->
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                            <span style="color: red;" id="se"></span>
+                        </div>
+                        <!-- Password -->
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="pass" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                            <span style="color: red;" id="sp"></span>
+                        </div>
+                        <!-- confirm-password -->
+                        <div class="form-floating mb-3" id="passField">
+                            <input type="password" class="form-control" id="repass" placeholder="Password">
+                            <label for="floatingPassword">Confirm Password</label>
+                            <span style="color: red;" id="sm"></span>
+                        </div>
+                        <div class="forget mb-3">
+                            <a style="text-decoration: none;" class="" href="">Forget Password ?</a>
+                        </div>
+                        <div class="sub-btn mb-5">
+                            <button onclick="signin()" class="btn btn-dark bg-black">Submit</button>
+                        </div>
+                        <div class="swi-btn">
+                            <button id="signupBtn" class="btn signup-Btn">Sign Up</button>
+                            <button id="signinBtn" class="btn signin-Btn">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let signupBtn = document.getElementById("signupBtn");
+        let signinBtn = document.getElementById("signinBtn");
+        let nameField = document.getElementById("nameField");
+        let passField = document.getElementById("passField");
+        let title = document.getElementById("title");
+
+        signinBtn.onclick = function () {
+            nameField.style.display = "none";
+            passField.style.display = "none";
+            se.innerHTML = " "
+            sp.innerHTML = " "
+            title.innerHTML = "Sign In";
+            signupBtn.style.color = "white";
+            signupBtn.style.backgroundColor = "black";
+            signinBtn.style.color = "black";
+            signinBtn.style.backgroundColor = "white";
+            signupBtn.classList.add("disable");
+            signinBtn.classList.remove("disable");
+        }
+        signupBtn.onclick = function () {
+            nameField.style.display = "block";
+            se.innerHTML = " "
+            sp.innerHTML = " "
+            sn.innerHTML = " "
+            sm.innerHTML = " "
+            passField.style.display = "block";
+            title.innerHTML = "Sign Up";
+            signinBtn.style.color = "white";
+            signinBtn.style.backgroundColor = "black";
+            signupBtn.style.color = "black";
+            signupBtn.style.backgroundColor = "White";
+            signupBtn.classList.remove("disable");
+            signinBtn.classList.add("disable");
+        }
+
+
+        function signin() {
+            var n = document.getElementById("name").value;
+            var e = document.getElementById("email").value;
+            var p = document.getElementById("pass").value;
+            var m = document.getElementById("repass").value;
+
+            if (!n && !e && !p && !m) {
+                document.getElementById("sn").innerHTML = "Please enter your name";
+                document.getElementById("se").innerHTML = "Please enter your email";
+                document.getElementById("sp").innerHTML = "Please enter your password";
+                document.getElementById("sm").innerHTML = "Please confirm your password";
+            }
+            else if (!e && !p && !m) {
+                document.getElementById("sn").innerHTML = " ";
+                document.getElementById("se").innerHTML = "Please enter your email";
+                document.getElementById("sp").innerHTML = "Please enter your password";
+                document.getElementById("sm").innerHTML = "Please confirm your password";
+            }
+            else if (!n && !p && !m) {
+                document.getElementById("sn").innerHTML = "Please enter your name";
+                document.getElementById("se").innerHTML = " ";
+                document.getElementById("sp").innerHTML = "Please enter your password";
+                document.getElementById("sm").innerHTML = "Please confirm your password";
+            }
+
+            else if (!n && !e && !m) {
+                document.getElementById("sn").innerHTML = "Please enter your name";
+                document.getElementById("se").innerHTML = "Please enter your email";
+                document.getElementById("sp").innerHTML = " ";
+                document.getElementById("sm").innerHTML = "Please confirm your password";
+            }
+            else if (!n && !e && !p) {
+                document.getElementById("sn").innerHTML = "Please enter your name";
+                document.getElementById("se").innerHTML = "Please enter your email";
+                document.getElementById("sp").innerHTML = "Please enter your password";
+                document.getElementById("sm").innerHTML = " ";
+            }
+            else if (!m) {
+                document.getElementById("sn").innerHTML = " ";
+                document.getElementById("se").innerHTML = " ";
+                document.getElementById("sp").innerHTML = " ";
+                document.getElementById("sm").innerHTML = "Please confirm your password";
+            }
+
+            else if (!p && !m) {
+                document.getElementById("sn").innerHTML = " ";
+                document.getElementById("se").innerHTML = " ";
+                document.getElementById("sp").innerHTML = "Please enter your password";
+                document.getElementById("sm").innerHTML = "Please doesn't match";
+            }
+
+            else if (p != m) {
+                document.getElementById("sn").innerHTML = " ";
+                document.getElementById("se").innerHTML = " ";
+                document.getElementById("sp").innerHTML = " ";
+                document.getElementById("sm").innerHTML = "Password doesn't match";
+            }
+            else {
+                localStorage.setItem("Name", n);
+                localStorage.setItem("Email", e);
+                localStorage.setItem("Password", p);
+                window.location.href = "index.html";
+            }
+            
+        }
+    </script>
+</body>
+
+</html>

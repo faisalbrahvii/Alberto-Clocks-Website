@@ -1,0 +1,15 @@
+{
+    "product":[
+        {"dis":"$200","des":"Locksley london Skeleton Automatic watch ","price":"$160","img":"img/pic/1.jpg"  },
+        {"dis":"$180","des":"Mens Rotary Limited Edition Prostate Watch ","price":"$100","img":"img/pic/2.jpg"  },
+        {"dis":"$280","des":"Polar Ignite 2 Fitness watch","price":"$160","img":"img/pic/3.jpg"  },
+        {"dis":"$380","des":"Unixes Marathon Goverment Watch","price":"$160","img":"img/pic/4.jpg"  }
+    ],
+    "new":[
+        {"dis1":"$100","des":"Mens Baume & Mercier Cilifton  ","price1":"$60","img":"img/pic/11.jpg"  },
+        {"dis1":"$180","des":"Mens boss hero Silve Watch","price1":"$100","img":"img/pic/12.jpg"  },
+        {"dis1":"$280","des":"Mens Hugo Smart Watch","price1":"$160","img":"img/pic/13.jpg"  },
+        {"dis1":"$380","des":"Seiko Prospex STO Watch","price1":"$160","img":"img/pic/14.jpg"  }
+    ]
+    
+}

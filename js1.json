@@ -1,0 +1,374 @@
+{
+    "women": [
+        {
+            "price": "$160",
+            "des": "Women Citizen Navihawk AT Alarm Chronograph Radio  ",
+            "img": "img/ladies/1.jpg",
+            "id": "card1"
+        },
+        {
+            "price": "$260",
+            "des": "Ladies Citizen Watch Crystal Case Watch ",
+            "img": "img/ladies/2.jpg",
+            "id": "card2"
+        },
+        {
+            "price": "$360",
+            "des": "Ladies Vivienne Westwood Orb Heart Watch ",
+            "img": "img/ladies/3.jpg",
+            "id": "card3"
+        },
+        {
+            "price": "$460",
+            "des": "Ladies Vivienne Westwood The Wallace Watch ",
+            "img": "img/ladies/4.jpg",
+            "id": "card4"
+        },
+        {
+            "price": "$560",
+            "des": "Unisex Bulova Octava Automatic Watch",
+            "img": "img/ladies/5.png",
+            "id": "card5"
+        },
+        {
+            "price": "$660",
+            "des": "Ladies Radley Watch ",
+            "img": "img/ladies/6.png",
+            "id": "card6"
+        },
+        {
+            "price": "$860",
+            "des": "Ladies Vivienne Westwood Orb Exclusive Watch ",
+            "img": "img/ladies/7.png",
+            "id": "card7"
+        },
+        {
+            "price": "$760",
+            "des": "Ladies Michael Kors Pyper Watch ",
+            "img": "img/ladies/8.png",
+            "id": "card8"
+        },
+        {
+            "price": "$860",
+            "des": "Unisex Junghans FORM QUARZ Watch ",
+            "img": "img/ladies/9.png",
+            "id": "card9"
+        },
+        {
+            "price": "$360",
+            "des": "Ladies STORM Temptress Charm Black Watch ",
+            "img": "img/ladies/10.png",
+            "id": "card10"
+        },
+        {
+            "price": "$660",
+            "des": "Ladies STORM Olenie Gold TaupeWatch ",
+            "img": "img/ladies/11.png",
+            "id": "card11"
+        },
+        {
+            "price": "$360",
+            "des": "STORM Xis-X Ice Watch 47506/ICE ",
+            "img": "img/ladies/12.png",
+            "id": "card12"
+        }
+    ],
+    "men": [
+        {
+            "price1": "$460",
+            "des": "Mens Citizen Navihawk AT Alarm Chronograph Radio  ",
+            "img": "img/men/m9.jpg",
+            "id": "card13",
+            "btnid": "btn1",
+            "cardid": "detail1",
+            "priceid": "price1",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$560",
+            "des": "Mens Citizen Endeavour Watch  ",
+            "img": "img/men/m11.jpg",
+            "id": "card14",
+            "btnid": "btn2",
+            "cardid": "detail2",
+            "priceid": "price2",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$360",
+            "des": "Mens Rotary Limited Edition Prostate Cancer UK  ",
+            "img": "img/men/m2.jpg",
+            "id": "card15",
+            "btnid": "btn2",
+            "cardid": "detail3",
+            "priceid": "price3",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$260",
+            "des": "Mens Emporio Armani Chronograph Watch AR2434  ",
+            "img": "img/men/m4.jpg",
+            "id": "card16",
+            "btnid": "btn4",
+            "cardid": "detail4",
+            "priceid": "price4",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$860",
+            "des": "Unisex Marathon Government Search & Rescue Tritium Night Vision Watch  ",
+            "img": "img/men/m7.jpg",
+            "id": "card17",
+            "btnid": "btn5",
+            "cardid": "detail5",
+            "priceid": "price5",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$760",
+            "des": "Mens Junghans FORM C Chronoscope Chronograph Watch  ",
+            "img": "img/men/m8.jpg",
+            "id": "card18",
+            "btnid": "btn6",
+            "cardid": "detail6",
+            "priceid": "price6",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$560",
+            "des": "Unisex Marathon General Purpose Desert Tan Maraglow Watch  ",
+            "img": "img/men/m10.jpg",
+            "id": "card19",
+            "btnid": "btn7",
+            "cardid": "detail7",
+            "priceid": "price7",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$460",
+            "des": "Unisex Marathon General Purpose Desert Tan Tritium Night Vision Watch  ",
+            "img": "img/men/m12.jpg",
+            "id": "card20",
+            "btnid": "btn8",
+            "cardid": "detail8",
+            "priceid": "price8",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$560",
+            "des": "Seiko Prospex PADI Sumo Watch SPB181J1  ",
+            "img": "img/men/m13.jpg",
+            "id": "card21",
+            "btnid": "btn9",
+            "cardid": "detail9",
+            "priceid": "price9",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$260",
+            "des": "Junghans Watch  ",
+            "img": "img/men/m14.jpg",
+            "id": "card22",
+            "btnid": "btn10",
+            "cardid": "detail10",
+            "priceid": "price10",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$560",
+            "des": "Unisex Junghans FORM QUARZ Watch  ",
+            "img": "img/men/m15.jpg",
+            "id": "card23",
+            "btnid": "btn11",
+            "cardid": "detail11",
+            "priceid": "price11",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price1": "$360",
+            "des": " Maurice Lacroix Watch ",
+            "img": "img/men/m3.jpg",
+            "id": "card24",
+            "btnid": "btn12",
+            "cardid": "detail12",
+            "priceid": "price12",
+            "onclick": "add_cart_to_busket()"
+        }
+    ],
+    "fine": [
+        {
+            "price": "$360",
+            "des": " Maurice Lacroix Watch ",
+            "img": "img/men/m3.jpg",
+            "id": "card24",
+            "btnid": "btn12",
+            "cardid": "detail12",
+            "priceid": "price12",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price": "$760",
+            "des": "Mens Junghans FORM C Chronoscope Chronograph Watch  ",
+            "img": "img/men/m8.jpg",
+            "id": "card18",
+            "btnid": "btn6",
+            "cardid": "detail6",
+            "priceid": "price6",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price": "$360",
+            "des": "STORM Xis-X Ice Watch 47506/ICE ",
+            "img": "img/ladies/12.png",
+            "id": "card12"
+        },
+        {
+            "price": "$260",
+            "des": "Mens Emporio Armani Chronograph Watch AR2434  ",
+            "img": "img/men/m4.jpg",
+            "id": "card16",
+            "btnid": "btn4",
+            "cardid": "detail4",
+            "priceid": "price4",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price": "$860",
+            "des": "Unisex Junghans FORM QUARZ Watch ",
+            "img": "img/ladies/9.png",
+            "id": "card9"
+        },
+        {
+            "price": "$460",
+            "des": "Unisex Marathon General Purpose Desert Tan Tritium Night Vision Watch  ",
+            "img": "img/men/m12.jpg",
+            "id": "card20",
+            "btnid": "btn8",
+            "cardid": "detail8"
+        },
+        {
+            "price": "$660",
+            "des": "Ladies Radley Watch ",
+            "img": "img/ladies/6.png",
+            "id": "card6"
+        },
+        {
+            "price": "RS: 10,000",
+            "des": "Gc Mens Stainless Steel Quartz Blue Dial Choronograph Date Blue Silicone Band Watch  ",
+            "img": "img/lux/gc2.jpg",
+            "id": "card65"
+        },
+        {
+            "price": "RS: 14,000",
+            "des": "Gc Mens Black PVD Case Swiss Movement Black Chronograph Dial with Bronze Details Black Silicone Band Watch ",
+            "img": "img/lux/gc3.jpg",
+            "id": "card7"
+        },
+        {
+            "price": "$260",
+            "des": "Ladies Citizen Watch Crystal Case Watch ",
+            "img": "img/ladies/2.jpg",
+            "id": "card2"
+        },
+        {
+            "price": "RS: 120,000",
+            "des": "MVMT Field Mens Gunmetal Stainless Steel Quartz Grey Dial Gunmetal Stainless Steel Bracelet Watch ",
+            "img": "img/lux/guess1.jpg",
+            "id": "card1"
+        },
+        {
+            "price": "RS: 70,000",
+            "des": "G-Shock Black Analog-Digital LED Light Mineral Glass World  ",
+            "img": "img/lux/gs5.webp",
+            "id": "card13"
+        }
+    ],
+    "COSMOPOLIS": [
+        {
+            "price": "$760",
+            "des": "Mens Junghans FORM C Chronoscope Chronograph Watch  ",
+            "img": "img/men/m8.jpg",
+            "id": "card18",
+            "btnid": "btn6",
+            "cardid": "detail6",
+            "priceid": "price6",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price": "$860",
+            "des": "Unisex Junghans FORM QUARZ Watch ",
+            "img": "img/ladies/9.png",
+            "id": "card9"
+        },
+        {
+            "price": "$260",
+            "des": "Mens Emporio Armani Chronograph Watch AR2434  ",
+            "img": "img/men/m4.jpg",
+            "id": "card16",
+            "btnid": "btn4",
+            "cardid": "detail4",
+            "priceid": "price4",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price": "$360",
+            "des": " Maurice Lacroix Watch ",
+            "img": "img/men/m3.jpg",
+            "id": "card24",
+            "btnid": "btn12",
+            "cardid": "detail12",
+            "priceid": "price12",
+            "onclick": "add_cart_to_busket()"
+        },
+        {
+            "price": "$460",
+            "des": "Unisex Marathon General Purpose Desert Tan Tritium Night Vision Watch  ",
+            "img": "img/men/m12.jpg",
+            "id": "card20",
+            "btnid": "btn8",
+            "cardid": "detail8"
+        },
+        {
+            "price": "$660",
+            "des": "Ladies Radley Watch ",
+            "img": "img/ladies/6.png",
+            "id": "card6"
+        },
+        {
+            "price": "$360",
+            "des": "STORM Xis-X Ice Watch 47506/ICE ",
+            "img": "img/ladies/12.png",
+            "id": "card12"
+        },
+        {
+            "price": "RS: 10,000",
+            "des": "Gc Mens Stainless Steel Quartz Blue Dial Choronograph Date Blue Silicone Band Watch  ",
+            "img": "img/lux/gc2.jpg",
+            "id": "card65"
+        },
+        {
+            "price": "RS: 120,000",
+            "des": "MVMT Field Mens Gunmetal Stainless Steel Quartz Grey Dial Gunmetal Stainless Steel Bracelet Watch ",
+            "img": "img/lux/guess1.jpg",
+            "id": "card1"
+        },
+        {
+            "price": "RS: 14,000",
+            "des": "Gc Mens Black PVD Case Swiss Movement Black Chronograph Dial with Bronze Details Black Silicone Band Watch ",
+            "img": "img/lux/gc3.jpg",
+            "id": "card7"
+        },
+        {
+            "price": "$260",
+            "des": "Ladies Citizen Watch Crystal Case Watch ",
+            "img": "img/ladies/2.jpg",
+            "id": "card2"
+        },
+        {
+            "price": "RS: 70,000",
+            "des": "G-Shock Black Analog-Digital LED Light Mineral Glass World  ",
+            "img": "img/lux/gs5.webp",
+            "id": "card13"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "brands": [
+        {
+            "price": "RS: 25,000",
+            "des": "Gucci G-Timeless Gold Stainless Steel Quartz Blue/Red with Embroidered Bee Design Dial Navy/Red Nylon Band Watch  ",
+            "img": "img/lux/g1.webp",
+            "idd": "card9"
+        },
+        {
+            "price": "RS: 30,000",
+            "des": "Gucci G-Timeless Gold Stainless Steel Quartz Beige Leather ",
+            "img": "img/lux/g2.jpg",
+            "idd": "card10"
+        },
+        {
+            "price": "RS: 50,000",
+            "des": "Gucci G-Timeless Gold Stainless Steel Quartz Emerald Green ",
+            "img": "img/lux/g3.jpg",
+            "idd": "card11"
+        },
+        {
+            "price": "RS: 40,000",
+            "des": "Gucci G-Timeless Silver Stainless Steel Quartz Black with Embroidered Dial Black Leather Band Watch ",
+            "img": "img/lux/g4.jpg",
+            "idd": "card12"
+        }
+    ],
+    "gshock": [
+        {
+            "p": "RS: 70,000",
+            "d": "G-Shock Black Analog-Digital LED Light Mineral Glass World  ",
+            "i": "img/lux/gs5.webp",
+            "idd": "card13"
+        },
+        {
+            "p": "RS: 80,000",
+            "d": "G-Shock Carbon Core Guard Analog-Digital World Time   ",
+            "i": "img/lux/gs4.webp",
+            "idd": "card14"
+        },
+        {
+            "p": "RS: 90,000",
+            "d": "G-Shock GA-700 Series Mens Round Analog+Digital Black  ",
+            "i": "img/lux/gs6.webp",
+            "idd": "card15"
+        },
+        {
+            "p": "RS: 110,000",
+            "d": " G-Shock GA-700 Series Round Analog-Digital Green Bazel World Time, 5daily Alarm, LED Backlight  ",
+            "i": "img/lux/gs3.jpg",
+            "idd": "card16"
+        }
+    ],
+    "guess": [
+        {
+            "price": "RS: 120,000",
+            "des": "MVMT Field Mens Gunmetal Stainless Steel Quartz Grey Dial Gunmetal Stainless Steel Bracelet Watch ",
+            "img": "img/lux/guess1.jpg",
+            "idd": "card1"
+
+        },
+        {
+            "price": "RS: 10,000",
+            "des": "MVMT Minimal Sport Mens Black Stainless Steel Quartz Black Dial Black Leather Band Watch ",
+            "img": "img/lux/guess2.jpg",
+            "idd": "card2"
+        },
+        {
+            "price": "RS: 21,000",
+            "des": "MVMT Minimal Sport Mens Black Stainless Steel Quartz Black Dial Black Leather Band Watch  ",
+            "img": "img/lux/guess3.jpg",
+            "idd": "card3"
+        },
+        {
+            "price": "RS: 13,000",
+            "des": "Mens Citizen MVMT Minimal Sport Mens Black  ",
+            "img": "img/lux/guess4.jpg",
+            "idd": "card4"
+        }
+    ],
+    "cc": [
+        {
+            "price": "RS: 34,000",
+            "des": "Gc Mens Bronze PVD Case Black Bezel Sapphire Crystal Black Carbon Fibe  ",
+            "img": "img/lux/gc1.jpg",
+            "idd": "card5"
+        },
+        {
+            "price": "RS: 10,000",
+            "des": "Gc Mens Stainless Steel Quartz Blue Dial Choronograph Date Blue Silicone Band Watch  ",
+            "img": "img/lux/gc2.jpg",
+            "idd": "card6"
+        },
+        {
+            "price": "RS: 14,000",
+            "des": "Gc Mens Black PVD Case Swiss Movement Black Chronograph Dial with Bronze Details Black Silicone Band Watch ",
+            "img": "img/lux/gc3.jpg",
+            "idd": "card7"
+
+        },
+        {
+            "price": "RS: 28,000",
+            "des": "Gc Mens Black PVD Case Swiss Movement Black Chronograph Dial  ",
+            "img": "img/lux/gc4.jpg",
+            "idd": "card8"
+        }
+    ]
+}

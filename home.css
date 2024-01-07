@@ -1,0 +1,357 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/montserrat-subrayada');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#preloader {
+    background: #000 url(img/ezgif.com-gif-maker.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#home {
+    background-image: url(img/5843910.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-text {
+    color: white !important;
+    font-size: 18px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.navbar-text:hover {
+    color: #ffc107;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+#about {
+    display: none;
+}
+
+#tech {
+    display: none;
+}
+
+.heading {
+    font-family: 'Century Gothic', sans-serif;
+
+}
+
+#contact {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.field {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50vh !important;
+}
+
+.text {
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    letter-spacing: 1px;
+}
+
+.deve {
+    font-family: 'Century Gothic', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.con-btn:hover {
+    color: black !important;
+}
+
+.para {
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.space {
+    height: 35vh;
+}
+
+.navbar-brand {
+    font-size: 1.9rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.about-txt {
+    font-family: 'Century Gothic', sans-serif;
+
+}
+
+.g-w {
+    display: flex;
+    justify-content: space-around;
+}
+
+.m-w {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/In-Depth-Pellikan-Watches.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: scale 0.4s;
+}
+
+.counter {
+    background: transparent;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+
+    height: 0;
+
+}
+
+
+.f-w {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/1969rg-women1\ \(1\).webp);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    cursor: pointer;
+    transition: scale 0.4s;
+}
+
+.font {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 3vh;
+}
+
+.f-w:hover {
+    scale: 110%;
+    /* animation-duration: 1s; */
+}
+
+.m-w:hover {
+    scale: 110%;
+    /* animation-duration: 1s; */
+}
+
+.r-w {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Dan-sys-13.webp);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    cursor: pointer;
+    transition: scale 0.4s;
+}
+
+.e-w {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/images.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    cursor: pointer;
+    transition: scale 0.4s !important;
+}
+
+.c-w {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/How-to-start-luxury-watch-collection_img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    cursor: pointer;
+    transition: scale 0.4s;
+}
+
+.l-w {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/wbx-21-001-buy-apr-lead-1617315550.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    cursor: pointer;
+    transition: scale 0.4s;
+}
+
+.n-w {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/960x0.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    cursor: pointer;
+    transition: scale 0.4s;
+}
+
+.r-w:hover {
+    scale: 110%;
+    animation-duration: 1s;
+}
+
+.e-w:hover {
+    scale: 110%;
+    animation-duration: 1s;
+}
+
+.c-w:hover {
+    scale: 110%;
+    animation-duration: 1s;
+}
+
+.l-w:hover {
+    scale: 110%;
+    animation-duration: 1s;
+}
+
+.n-w:hover {
+    scale: 110%;
+    animation-duration: 1s;
+}
+
+.m-w-t {
+    color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+}
+
+/* Areeb */
+.collor {
+    color: #ffc107;
+    font-family: 'Century Gothic', sans-serif;
+
+}
+
+.footer {
+    background-color: black;
+}
+
+#main {
+    height: 300px;
+    width: 100%;
+}
+
+.footer-row {
+    padding: 10px 20px;
+    /* margin: 1rem 12rem; */
+    color: white;
+}
+
+.footer .container .row h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-weight: 700;
+    /* font-style: italic; */
+}
+
+.footer .container .row .logo p {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.footer .container .row .btnm button {
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all .2s linear;
+}
+
+.footer .container .row .btnm button:hover {
+    color: black;
+    background: #fff;
+}
+
+.footer .container .row .contect .icons {
+    margin-bottom: 1rem;
+}
+
+.footer .container .row .contect .icons .fa-solid {
+    font-size: 1.2rem;
+}
+
+.footer .container .row .move {
+    margin-left: 1rem;
+}
+
+.footer .container .row .line a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0.5rem;
+}
+
+.footer .container .row .face i {
+    font-size: 1.5rem;
+}
+
+.footer .container .row .face .fa-brands {
+    border: 2px solid #fff;
+    padding: 0.5rem 0.5rem;
+    display: inline-block !important;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.footer .container .row .face .fa-brands:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.copyright h5 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* .faisal */
+.name {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.price {
+    color: orange;
+}
+
+.card {
+    transition: scale 0.4s;
+    cursor: pointer;
+}
+
+.card:hover {
+    scale: 110%;
+    box-shadow: 0px 0px 14px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fa {
+    font-size: 12px !important;
+}
+
+.fa:hover {
+    color: orange;
+}
